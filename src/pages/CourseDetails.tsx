@@ -6,7 +6,7 @@ import {
   Award, BarChart, Clock, BookOpen, 
   ArrowLeft, Share2, AlertCircle 
 } from 'lucide-react';
-import { motion } from 'framer-motion';
+// Removed unused 'motion' import to fix Vercel build error
 
 export default function CourseDetails() {
   const { courseId } = useParams();
